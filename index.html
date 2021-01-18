@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>From validator</title>
+</head>
+
+
+<body>
+    <dev class="container">
+        <form id="form" class="form">
+            <h2> Register info</h2>
+            <div class="form-control">
+                <label for="username"> Username</label>
+                <input type="text" id="username" placeholder="Enter_username">
+                <small> Error_message</small>
+            </div>
+            <div class="form-control">
+                <label for="email"> email</label>
+                <input type="text" id="email" placeholder="Enter_email">
+                <small> Error_message</small>
+            </div>
+            <div class="form-control">
+                <label for="pwd">password</label>
+                <input type="password" id="pwd" placeholder="Enter_password">
+                <small> Error_message</small>
+            </div>
+            <div class="form-control">
+                <label for="confirm_pwd"> Confirm password</label>
+                <input type="password" id="confirm_pwd" placeholder="Enter_password again">
+                <small> Error_message</small>
+            </div>
+
+            <div class="form-c">
+                <label for="sex">gender</label>
+                <input type="radio" name='sex' value='1'/> male
+              
+                <input type='radio' name='sex' value='0'/>female
+              </div>
+      
+              <div class="form-c">
+                <label for="habby">habbies</label>
+                <input type="checkbox" id="habby" value='smake' 
+                />smake
+                <input type="checkbox" id="habby" value='smake' 
+                />drink
+                <input type="checkbox" id="habby" value='smake' 
+                />fire
+               
+              </div>
+            <button type="submit">submit</button>
+        </form>
+    </dev>
+    <script src="script.js"></script>
+</body>
+</html>
